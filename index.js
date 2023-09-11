@@ -98,3 +98,48 @@ const produto = {
   
   console.log(calcularPrecoFinal(produto))
   */
+
+//Exercício Complementar
+//1.
+/*
+function soma (a, b){
+    return a + b;
+ }
+
+let a = Number(prompt("Insira o primeiro número: "));
+let b = Number(prompt("Insira o segundo número: "));
+ 
+console.log("Soma:", a + b)
+*/
+//2.
+/*
+function calcularMedia(notas) {
+    if (notas.length !== 3) {
+      return "O array deve conter exatamente 3 notas.";
+    }
+  
+    const soma = notas.reduce((total, nota) => total + nota, 0);
+    const media = soma / 3;
+    return media;
+  }
+  
+  // Exemplo de uso:
+  const notasAluno = [7.5, 8.0, 9.2];
+  const mediaAluno = calcularMedia(notasAluno);
+  console.log(`A média do aluno é: ${mediaAluno}`);
+*/
+
+//3.
+/*
+function verificarPalindromo(){
+let palavra = prompt('Digite uma palavra ');
+let palindromo = [palavra];
+palavra = palavra.split("");
+palavra = palavra.slice().reverse();
+palavra = palavra.join("");
+console.log(palavra);
+}
+const resultado = verificarPalindromo(palavra);
+
+console.log(resultado);
+*/
